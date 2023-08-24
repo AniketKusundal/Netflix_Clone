@@ -1,0 +1,414 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap"); */
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Oswald", sans-serif; */
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  scroll-behavior: smooth;
+ 
+ 
+ 
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.Header {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://assets.nflxext.com/ffe/siteui/vlv3/fc164b4b-f085-44ee-bb7f-ec7df8539eff/d23a1608-7d90-4da1-93d6-bae2fe60a69b/IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 0;
+
+}
+
+
+nav img{
+    height: 80px;
+}
+
+
+#Lang{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 7vw;
+    margin: 5px;
+    padding: 2px;
+    height: 27px;
+}
+
+
+
+select option{
+    background-color: rgb(78, 76, 76);
+}
+
+
+
+.nav-btn{
+    background-color: rgb(229,9,20);
+    border: none;
+    outline: 0;
+    color: white;
+    height: 30px;
+    width: 7vw;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+
+.nav-btn:hover{
+    background-color: rgb(207, 11, 21);
+}
+
+
+
+
+
+.Header-Containt{
+
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.Header-Containt h1{
+    font-size: 40px;
+    /* line-height: 0px; */
+    font-weight: 600;
+    max-width: 650px;
+}
+
+
+.Header-Containt h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+
+}
+
+.Emai-Signup{
+
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    overflow: hidden;
+    gap: 20px;
+    /* background-color: rgba(0, 0, 0, 0.584); */
+    /* border: 0.2px solid white; */
+}
+
+.Emai-Signup input{
+
+    flex: 1;
+    flex-grow: 1;
+    /* background-color: rgba(0,0,0,0.7); */
+    border: 0;
+    border:none;
+    outline: 0;
+    margin-left: 20px;
+    /* background-color: rgba(0, 0, 0, 0.584); */
+    
+}
+
+
+.Emai-Signup button{
+
+    background-color: rgb(229,9,20);
+    height: 50px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 0;
+    outline: 0;
+    color: white;
+    padding: 15px 30px;
+}
+
+
+.Emai-Signup button:hover{
+    background-color: rgb(197, 16, 25);
+}
+
+
+
+/* Feture section */
+
+.feature{
+    background-color: black;
+    color: white;
+    padding: 50px 12%;
+     
+}
+
+
+.Row{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.textcolm{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+
+.textcolm h2{
+    font-size: 3rem;
+}
+
+
+.img-colm{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+
+.img-colm img{
+    display: block;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.img-colm video{
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    
+}
+/* End Of Feture Section */
+
+
+/* Vidio and img combine */
+
+.tv-container {
+    position: relative;
+    width: 500px; /* Adjust the dimensions as needed */
+    height: 500px;
+    z-index:50;
+    display: block;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+
+  .tv-image {
+
+    padding-top: 80px;
+    width: 100%;
+    height: auto;
+    padding-left: 40px;
+
+  }
+
+  .tv-video {
+
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .tv-video video{
+    display: inline-block;
+    vertical-align: baseline;
+  }
+  
+/* End of Vidio and img combine */
+
+
+
+/* FAQ DESIGN */
+.FAQ{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.FAQ h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+
+.accordeain{
+
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+
+
+
+.accordeain li{
+    list-style: none;
+    width: 100%;
+    padding: 6px;
+}
+
+
+.accordeain li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after{
+    content: '+';
+    font-size: 2rem;
+    position: absolute;
+    right: 20px;
+    /* font-weight: 600; */
+    transition: transform 0.4s;
+}
+
+
+
+
+
+input[type="radio"] {
+
+    display: none;
+    height: 50px;
+    width: 50%;
+
+}
+
+
+.accordeain .content{
+    
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: lighter;
+    transition:  max-height 0.5s , padding 0.5s;
+}
+
+
+
+.accordeain input[type ="radio"]:checked + label + .content{
+
+    max-height: 600px;
+    padding: 30px 22px;
+}
+
+
+.accordeain input[type ="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+
+
+.FAQ .Emai-Signup{
+    max-width: 550px;
+    margin: 20px auto 60px;
+}
+
+
+.FAQ small{
+    font-size: 18px;
+}
+/* END OF FAQ DESIGN */
+
+
+/* FOOTER SECTION */
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333; 
+    color: #777;
+}
+
+.footer h2{
+
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+
+
+
+.footer .colm {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+
+}
+
+
+
+.footer .colm a{
+    display: block;
+    color: #b1b1b1;
+    font-size: 14px;
+    margin-bottom: 20px;
+
+}
+
+
+.footer .Row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+
+
+.footer-p{
+    margin-top: 15px;
+    color: #b1b1b1;
+    font-size: 14px;
+}
+/* END OF  FOOTER SECTION */
+
